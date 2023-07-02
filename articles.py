@@ -5,7 +5,12 @@ import hashlib
 import datetime
 import json
 import time
+import os
 
+os.makedirs("./data", exist_ok=True)
+os.makedirs("./env", exist_ok=True)
+with open("env/.env","w") as f:
+    pass
 
 def sha256(s):
     return hashlib.sha256(s.encode()).hexdigest()
