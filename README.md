@@ -1,7 +1,7 @@
 # pyarticle
 ---
 
-- 実行
+- 次を実行
   `python article.py`
 - 実行後, `env/.env` ファイルが作成されるので以下を記述
   ```
@@ -10,4 +10,4 @@
   slack_xoxb_token=[slack xoxb token]
   slack_channel=[slack channel name]
   ```
-
+- 再度実行

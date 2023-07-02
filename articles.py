@@ -9,7 +9,7 @@ import os
 
 os.makedirs("./data", exist_ok=True)
 os.makedirs("./env", exist_ok=True)
-with open("env/.env","w") as f:
+with open("env/.env","a+") as f:
     pass
 
 def sha256(s):
