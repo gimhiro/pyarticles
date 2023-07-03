@@ -133,7 +133,7 @@ def main():
     except:
         with open("data/articles.json","w") as f:
             json.dump({}, f, indent=2)
-            dfrom = {}
+            dfrom = dict()
 
     new_id = set(dto.keys()) - set(dfrom.keys())
     print(f"[all] {len(new_id)} new item(s)")
