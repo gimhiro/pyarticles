@@ -1,8 +1,14 @@
 # pyarticle
 ---
 
-- 次を実行
-  `python article.py`
+- モジュールのインストール
+  ```
+  pip install -r requirements.txt
+  ```
+- 次を実行する
+  ```
+  python article.py
+  ```
 - 実行後, `env/.env` ファイルが作成されるので以下を記述
   ```
   user_id=[qiita user_id]
