@@ -16,4 +16,7 @@
   slack_xoxb_token=[slack xoxb token]
   slack_channel=[slack channel name]
   ```
+  - 参考
+    - qiita api token : https://qiita.com/miyuki_samitani/items/bfe89abb039a07e652e6
+    - slack api token : https://zenn.dev/kou_pg_0131/articles/slack-api-post-message
 - 再度実行
